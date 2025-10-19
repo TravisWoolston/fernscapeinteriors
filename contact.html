@@ -16,12 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -62,7 +56,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -95,39 +89,39 @@
         <!-- Contact Information -->
         <div class="col-lg-4 mb-5">
           <div class="contact-info-card">
-            <h3 class="section-title mb-4">Contact Information</h3>
+            <h2 class="section-title mb-4">Contact Information</h2>
             <div class="contact-item mb-4">
               <i class="bi bi-geo-alt-fill contact-icon"></i>
               <div class="contact-details">
-                <h5>Location</h5>
+                <p class="footer-heading">Location</p>
                 <p>257 Fairchild Way<br>Portland, Oregon 97035</p>
               </div>
             </div>
             <div class="contact-item mb-4">
               <i class="bi bi-telephone-fill contact-icon"></i>
               <div class="contact-details">
-                <h5>Phone</h5>
+                <p class="footer-heading">Phone</p>
                 <p>(503) 222-2222</p>
               </div>
             </div>
             <div class="contact-item mb-4">
               <i class="bi bi-envelope-fill contact-icon"></i>
               <div class="contact-details">
-                <h5>Email</h5>
+                <p class="footer-heading">Email</p>
                 <p>info@fernscapeinteriors.fi</p>
               </div>
             </div>
             <div class="contact-item mb-4">
               <i class="bi bi-clock-fill contact-icon"></i>
               <div class="contact-details">
-                <h5>Business Hours</h5>
+                <p class="footer-heading">Business Hours</p>
                 <p>Monday - Friday: 9am - 6pm<br>
                    Saturday: 10am - 4pm<br>
                    Sunday: Closed</p>
               </div>
             </div>
             <div class="social-media mt-4">
-              <h5 class="mb-3">Follow Us</h5>
+              <p class="footer-heading mb-3">Follow Us</p>
               <div class="social-links">
                 <a href="https://www.instagram.com/fernscape_int/" aria-label="Visit our Instagram page"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.facebook.com/fernscape_int/" aria-label="Visit our Facebook page"><i class="bi bi-facebook"></i></a>
@@ -140,7 +134,7 @@
         <!-- Contact Form -->
         <div class="col-lg-8">
           <div class="contact-form-wrapper">
-            <h3 class="section-title mb-4">Send Us a Message</h3>
+            <h2 class="section-title mb-4">Send Us a Message</h2>
             <form class="contact-form" action="#" method="post">
               <div class="row">
                 <div class="col-md-6 mb-3">
@@ -224,7 +218,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h3 class="cta-title">Ready to Transform Your Space?</h3>
+          <h2 class="cta-title">Ready to Transform Your Space?</h2>
           <p class="cta-text">Whether you're looking to add a single statement plant or create a complete green oasis, 
                               we're here to help bring your vision to life.</p>
           <div class="cta-buttons">
@@ -239,24 +233,18 @@
 
 <footer class="footer mt-auto py-3">
   <div class="container text-center">
-    <h5>Fernscape Interiors</h5>
+    <p class="footer-heading">Fernscape Interiors</p>
     <p>257 Fairchild Way <br>Portland, Oregon 97035 <br>(503) 222-2222</p>
-    <h5>Hours</h5>
+    <p class="footer-heading">Hours</p>
     <p>Monday - Friday: 9am - 6pm <br>Saturday: 10am - 4pm <br>Sunday: Closed</p>
     <a href="https://www.instagram.com/fernscape_int/" aria-label="Visit our Instagram page"><i class="bi bi-instagram"></i></a>
     <a href="https://www.facebook.com/fernscape_int/" aria-label="Visit our Facebook page"><i class="bi bi-facebook"></i></a>
     <a href="https://www.tiktok.com/@fernscape_int" aria-label="Visit our TikTok page"><i class="bi bi-tiktok"></i></a>
     <br>
+    <a href="attributions.html" class="link-light d-block mb-2">Image Attributions</a>
     <span class="text-muted">© 2025 Fernscape Interiors</span>
   </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script>
-      fetch('navbar.html')
-        .then(res => res.text())
-        .then(data => {
-          document.getElementById('navbar-placeholder').innerHTML = data;
-        });
-    </script>
   </body>
 </html>

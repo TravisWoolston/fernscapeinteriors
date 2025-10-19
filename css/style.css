@@ -199,6 +199,13 @@ h5 {
     font-family: "Alice", serif;
 }
 
+.footer-heading {
+    font-weight: 600;
+    font-family: "Alice", serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .page-title {
@@ -442,6 +449,13 @@ a:hover {
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
 }
+/* Match new non-heading labels in contact info */
+.contact-details .footer-heading {
+    font-family: "Alice", serif;
+    color: #0f5138;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
 
 .contact-details p {
     font-family: "Quicksand", sans-serif;
@@ -619,7 +633,7 @@ a:hover {
     padding: 1.5rem;
 }
 
-.service-preview-content h4 {
+.service-preview-content h3 {
     font-family: "Alice", serif;
     color: #0f5138;
     font-size: 1.3rem;
@@ -671,7 +685,7 @@ a:hover {
     transform: translateY(0);
 }
 
-.gallery-overlay h5 {
+.gallery-overlay h3 {
     font-family: "Alice", serif;
     margin: 0;
     font-size: 1.1rem;
